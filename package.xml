@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>ros_tutorials</name>
+  <version>0.0.0</version>
+  <description>The ROS Tutorials for beginners as described on wiki.ROS.org</description>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/ros_tutorials</url>
+  <maintainer email="daniel.alley6@gmail.com">Daniel Alley</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>
